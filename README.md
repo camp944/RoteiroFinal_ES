@@ -52,8 +52,8 @@ no arquivo ```\src\helper.ts```, como demonstrado abaixo, inserindo esse mesmo c
 cpf: string
 ```
 ### PASSO 3:
-Após inserir o novo atributo, será necessário adicionar um novo parâmetro à função ```addPessoa(newNome: string ) ``` 
-em ```\src\Model.ts``` para que o cpf possa ser atribuído a uma pessoa. Logo, a função deve ficar da seguinte forma:
+Após inserir o novo atributo, será necessário adicionar um novo parâmetro à função ```addPessoa(newNome: string )``` 
+ em ```\src\Model.ts``` para que o cpf possa ser atribuído a uma pessoa. Logo, a função deve ficar da seguinte forma:
 ```
 addPessoa(newNome: string,newCPF: string ) {
     this.pessoas.push({
