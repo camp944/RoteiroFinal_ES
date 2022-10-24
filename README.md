@@ -26,9 +26,20 @@ controller.ts, Model.ts, view.ts e helper.ts, que possuem respectivamente: as fu
 que promevem a interação entre serviço e entidade, a classe que contem os serviços, as funções de 
 gerenciamento de tela e por último a entidade que será utilizada como base para o código.
 Sendo assim, para que possamos realizar o cadastro de indivíduos, será necessário realizar algumas
-mudanças no código que totalizaram 9 passoas ao final deste roteiro.
+mudanças no código que totalizaram 8 passoas ao final deste roteiro.
 
 ### PASSO 1:
+```
+if(view.elements.cpfInputBox.value!="" && view.elements.nomeInputBox.value!="")
+  {
+    Todo.addTodo(newNome,newCpf)
+    const pessoas = Todo.getTodos()
+    const newPessoa = pessoas[pessoas.length - 1]
+
+    // append new pessoas
+    view.renderPessoa(newPessoa)
+  }
+```
 ### PASSO 2:
 ### PASSO 3:
 ### PASSO 4:
@@ -36,4 +47,4 @@ mudanças no código que totalizaram 9 passoas ao final deste roteiro.
 ### PASSO 6:
 ### PASSO 7:
 ### PASSO 8:
-### PASSO 9:
+
