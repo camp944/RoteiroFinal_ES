@@ -17,7 +17,7 @@ de pacotes npm e o seguinte comando:
     npm install typescript --save-dev
 ```
 
-##Aplicação
+## Aplicação
 Para melhor ilustrar e fixar os tópicos demonstrados a cima, foi criada uma aplicação web, 
 utilizando typescript, que possui campos a serem preenchidos para realizar um exemplo de 
 cadastro, fictício, de pessoas.
