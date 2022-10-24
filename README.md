@@ -29,8 +29,12 @@ Sendo assim, para que possamos realizar o cadastro de indivíduos, será necess�
 mudanças no código que totalizaram 8 passoas ao final deste roteiro.
 
 ### PASSO 1:
-Será necessário substituir o código presente das linhas 19 a 24 do arquivo ```\src\controller.ts```, pelo código abaixo, para que ao realizar o cadastro  
+Será necessário substituir o código presente das linhas 19 a 24 do arquivo ```\src\controller.ts```, 
+pelo código abaixo, para que, ao realizar o cadastro de um novo indivíduo, o CPF dele também seja 
+coletado na tela.
 ```
+const newCpf = view.elements.cpfInputBox.value 
+  
 if(view.elements.cpfInputBox.value!="" && view.elements.nomeInputBox.value!="")
   {
     Todo.addTodo(newNome,newCpf)
@@ -42,10 +46,37 @@ if(view.elements.cpfInputBox.value!="" && view.elements.nomeInputBox.value!="")
   }
 ```
 ### PASSO 2:
+Para que a entidade base do projeto possa registrar o CPF será necessário criar o atributo cpf 
+no arquivo ```\src\helper.ts```, como demonstrado abaixo, inserindo esse mesmo código após a linha 3.
+```
+cpf: string
+```
 ### PASSO 3:
+Após inserir o novo atributo, será necessário adicionar um novo parâmetro à função ```addPessoa(newNome: string ) ``` 
+em ```\src\Model.ts``` para que o cpf possa ser atribuído a uma pessoa. Logo, a função deve ficar da seguinte forma:
+```
+addPessoa(newNome: string,newCPF: string ) {
+    this.pessoas.push({
+      id: this.pessoas.length > 0 ? this.pessoas[this.pessoas.length - 1].id + 1 : 1,
+      nome: newNome,
+      cpf: newCPF ,
+      complete: false,
+    })
+  }
+```
 ### PASSO 4:
+```
+```
 ### PASSO 5:
+```
+```
 ### PASSO 6:
+```
+```
 ### PASSO 7:
+```
+```
 ### PASSO 8:
+```
+```
 
