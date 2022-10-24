@@ -29,6 +29,7 @@ Sendo assim, para que possamos realizar o cadastro de indivíduos, será necess�
 mudanças no código que totalizaram 8 passoas ao final deste roteiro.
 
 ### PASSO 1:
+Será necessário substituir o código presente das linhas 19 a 24 do arquivo ```\src\controller.ts```, pelo código abaixo, para que ao realizar o cadastro  
 ```
 if(view.elements.cpfInputBox.value!="" && view.elements.nomeInputBox.value!="")
   {
