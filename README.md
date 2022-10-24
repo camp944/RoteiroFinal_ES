@@ -17,4 +17,23 @@ de pacotes npm e o seguinte comando:
     npm install typescript --save-dev
 ```
 
+##Aplicação
+Para melhor ilustrar e fixar os tópicos demonstrados a cima, foi criada uma aplicação web, 
+utilizando typescript, que possui campos a serem preenchidos para realizar um exemplo de 
+cadastro, fictício, de pessoas.
+A aplicação é basicamente composta por uma tela inicial index.html e 4 arquivos: 
+controller.ts, Model.ts, view.ts e helper.ts, que possuem respectivamente: as funções controle, 
+que promevem a interação entre serviço e entidade, a classe que contem os serviços, as funções de 
+gerenciamento de tela e por último a entidade que será utilizada como base para o código.
+Sendo assim, para que possamos realizar o cadastro de indivíduos, será necessário realizar algumas
+mudanças no código que totalizaram 9 passoas ao final deste roteiro.
 
+### PASSO 1:
+### PASSO 2:
+### PASSO 3:
+### PASSO 4:
+### PASSO 5:
+### PASSO 6:
+### PASSO 7:
+### PASSO 8:
+### PASSO 9:
