@@ -89,12 +89,10 @@ e em seguida confirme.
       />    
 ```
 ### PASSO 6:
+Para executar o código, o node.js deve estar instalado na máquina e, após navegar até o diretório raiz da aplicação, deve-se 
+executar o comando :
+```sh
+npm run dev
 ```
-```
-### PASSO 7:
-```
-```
-### PASSO 8:
-```
-```
-
+A aplicação deve ser capaz de receber nome e CPF, exibí-los na tela após clicar no botão de submit, deletar cadastros após clicar
+no botão delete e traçar uma linha sobre ele ao preencher a checkbox.
