@@ -49,7 +49,7 @@ if(view.elements.cpfInputBox.value!="" && view.elements.nomeInputBox.value!="")
 Para que a entidade base do projeto possa registrar o CPF será necessário criar o atributo cpf 
 no arquivo ```\src\helper.ts```, como demonstrado abaixo, inserindo esse mesmo código após a linha 3.
 ```ts
-cpf: string
+    cpf: string
 ```
 ### PASSO 3:
 Após inserir o novo atributo, será necessário adicionar um novo parâmetro à função ```addPessoa(newNome: string )``` 
@@ -76,7 +76,16 @@ textElement.textContent = nome + '|' + cpf
 ```
 ### PASSO 5:
 
-```
+```html
+    <label>CPF: </label>
+          <input
+            class="row"
+            style="margin-left: 5px;"
+            type="text"
+            id="inputCpf"
+            placeholder="Inserir CPF"
+            name="todo"
+          />    
 ```
 ### PASSO 6:
 ```
