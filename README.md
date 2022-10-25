@@ -99,6 +99,6 @@ no botão delete e traçar uma linha sobre ele ao preencher a checkbox.
 
 
 <h3>AUTORES</h3>
-João Pedro de Almeida Campos    20203003792<br>
-Arthur Severo de Souza          20183021106<br>
-Alexandre Augusto Aguiar Gomes  201722040084<br>
+<p>João Pedro de Almeida Campos    20203003792</p>
+<p>Arthur Severo de Souza          20183021106</p>
+<p>Alexandre Augusto Aguiar Gomes  201722040084</p>
