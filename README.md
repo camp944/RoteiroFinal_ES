@@ -75,17 +75,18 @@ e em seguida substituir a linha 33 pela seguinte:
 textElement.textContent = nome + '|' + cpf
 ```
 ### PASSO 5:
-
+Por fim, para que o CPF do indivíduo possa ser inserido, deve-se criar um campo na tela para que o usuário da aplicação digite
+e em seguida confirme.
 ```html
     <label>CPF: </label>
-          <input
-            class="row"
-            style="margin-left: 5px;"
-            type="text"
-            id="inputCpf"
-            placeholder="Inserir CPF"
-            name="todo"
-          />    
+      <input
+        class="row"
+        style="margin-left: 5px;"
+        type="text"
+        id="inputCpf"
+        placeholder="Inserir CPF"
+        name="todo"
+      />    
 ```
 ### PASSO 6:
 ```
