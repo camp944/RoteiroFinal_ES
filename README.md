@@ -98,5 +98,5 @@ A aplicação deve ser capaz de receber nome e CPF, exibí-los na tela após cli
 no botão delete e traçar uma linha sobre ele ao preencher a checkbox.
 
 
-<h4>AUTORES<h4>
+<h3>AUTORES<h3>
 João Pedro de Almeida Campos
