@@ -96,3 +96,7 @@ npm run dev
 ```
 A aplicação deve ser capaz de receber nome e CPF, exibí-los na tela após clicar no botão de submit, deletar cadastros após clicar
 no botão delete e traçar uma linha sobre ele ao preencher a checkbox.
+
+
+<h4>AUTORES<h4>
+João Pedro de Almeida Campos
