@@ -1,5 +1,5 @@
 # Clean Architecture utilizando Typescript
-## Clean Arquitecture
+## Clean Architecture
 Clean Arquitecture é uma forma de programar baseada delimitação do código
 em camadas para que uma mesma classe não represente uma entidade e possua 
 suas interações com os serviços a serem realizados, como ocorre em sistemas 
@@ -98,6 +98,7 @@ A aplicação deve ser capaz de receber nome e CPF, exibí-los na tela após cli
 no botão delete e traçar uma linha sobre ele ao preencher a checkbox.
 
 
-<h3>AUTORES<h3>
-    <p>João Pedro de Almeida Campos    20203003792</p>
-    <p>Arthur Severo de Souza          20183021106</p>
+<h3>AUTORES</h3>
+João Pedro de Almeida Campos    20203003792
+Arthur Severo de Souza          20183021106
+Alexandre Augusto Aguiar Gomes  201722040084
