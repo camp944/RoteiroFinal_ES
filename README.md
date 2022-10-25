@@ -1,6 +1,6 @@
 # Clean Architecture utilizando Typescript
 ## Clean Architecture
-Clean Arquitecture é uma forma de programar baseada delimitação do código
+Clean Architecture é uma forma de programar baseada delimitação do código
 em camadas para que uma mesma classe não represente uma entidade e possua 
 suas interações com os serviços a serem realizados, como ocorre em sistemas 
 desenvolvidos a partir do modelo Model-View-Controller, onde entidades interagem com 
