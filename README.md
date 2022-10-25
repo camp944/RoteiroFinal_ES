@@ -76,7 +76,7 @@ textElement.textContent = nome + '|' + cpf
 ```
 ### PASSO 5:
 Por fim, para que o CPF do indivíduo possa ser inserido, deve-se criar um campo na tela para que o usuário da aplicação digite
-e em seguida confirme.Logo, deve-se adicionar o código abaixo após a linha 21 do arquivo ```\src\view.html```.
+e em seguida confirme.Logo, deve-se adicionar o código abaixo após a linha 21 do arquivo ```\src\index.html```.
 ```html
     <label>CPF: </label>
       <input
