@@ -67,7 +67,7 @@ addPessoa(newNome: string,newCPF: string ) {
 ### PASSO 4:
 Para que a tela possa carregar as informações contidas na entidade, será necessário substituir o código da linha 
 18 do arquivo ```\src\Model.ts``` pelo disponibilizado abaixo:
-```
+```ts
 const { id, complete, nome, cpf } = Pessoa
 ```
 e em seguida substituir a linha 33 pela seguinte:
@@ -75,6 +75,7 @@ e em seguida substituir a linha 33 pela seguinte:
 textElement.textContent = nome + '|' + cpf
 ```
 ### PASSO 5:
+
 ```
 ```
 ### PASSO 6:
